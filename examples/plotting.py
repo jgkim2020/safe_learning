@@ -130,7 +130,7 @@ def plot_lyapunov_1d(lyapunov, true_dynamics, legend=False):
         axes[1].plot([-x_safe, -x_safe], y_range, 'k-.')
 
     # Show plot
-    plt.show()
+    plt.show(block = False)
 
 
 def plot_triangulation(triangulation, axis=None, three_dimensional=False,
